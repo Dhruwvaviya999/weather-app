@@ -1,6 +1,6 @@
 import { useState } from "react";
 import searchIcon from "../assets/search-icon.svg"
-import axios from "axios"
+import axios from "axios";
 
 const Search = ({setWeatherDetails}) => {
   const [search, setSearch] = useState("");
